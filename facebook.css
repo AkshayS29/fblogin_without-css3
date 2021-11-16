@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(238, 239, 241);
+}
+
+.content {
+  width: 900px;
+
+  margin: 130px auto;
+}
+
+.leftC {
+  width: 430px;
+
+  float: left;
+}
+
+.fbHead {
+  font-size: 70px;
+  color: #1877f2;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.rightForm {
+  width: 400px;
+
+  background-color: rgb(255, 255, 255);
+  float: right;
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.inp {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  font-size: 16px;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border-style: none;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.btnOne {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border-style: none;
+  background-color: #1877f2;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fpText {
+  text-align: center;
+  margin-top: 20px;
+  color: #1877f2;
+}
+
+.line {
+  border-top: 1px solid rgb(211, 211, 211);
+  margin-top: 30px;
+}
+
+.btnTwo {
+  display: block;
+  margin: 25px auto;
+  width: 200px;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border-style: none;
+  background-color: #42b72a;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boldTxt {
+  text-align: center;
+  margin-top: 20px;
+  float: right;
+  clear: right;
+  width: 400px;
+}
+
+.lastText {
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footerContent {
+  margin: 50px auto;
+  background-color: rgb(255, 255, 255);
+  color: #8a8d91;
+  font-size: 15px;
+}
+
+.listsContent {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.firstList {
+  padding-top: 20px;
+}
+
+.item {
+  padding-right: 10px;
+
+  display: inline;
+}
+
+#lineBottom {
+  border-bottom: 1px solid #dddfe2;
+  height: 5px;
+}
+.secondList {
+  margin-top: 10px;
+}
+.items {
+  padding-right: 10px;
+
+  display: inline;
+}
+
+.thirdList {
+  margin-top: 5px;
+}
+
+.itemsT {
+  padding-right: 10px;
+  width: 900px;
+  display: inline;
+}
+
+.fourthList {
+  margin-top: 5px;
+}
+
+.itemsTh {
+  padding-right: 10px;
+
+  display: inline;
+}
+
+.fifthList {
+  margin-top: 25px;
+}
+
+.itemsThf {
+  padding-right: 5px;
+
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
+
+.createForm {
+  margin: 430px auto;
+  width: 400px;
+  padding: 16px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 8px rgb(204, 202, 202);
+}
+
+.headText {
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.fTxt {
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+.sTxt {
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: rgb(124, 120, 120);
+}
+
+#hLine {
+  border-bottom: 1px solid #dddfe2;
+  padding-top: 15px;
+}
+
+.inpFormFirst {
+  margin-top: 20px;
+}
+
+.fL {
+  float: left;
+}
+
+.inpFirst {
+  width: 170px;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid rgb(218, 214, 214);
+  color: black;
+  background-color: rgb(218, 214, 214);
+}
+
+.inpSecond {
+  width: 170px;
+  padding: 7px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(218, 214, 214);
+  color: rgb(0, 0, 0);
+  background-color: rgb(218, 214, 214);
+}
+
+.inpThird {
+  width: 380px;
+  padding: 7px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(218, 214, 214);
+  color: black;
+  background-color: rgb(218, 214, 214);
+}
+
+.inpFourth {
+  width: 380px;
+  padding: 7px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(218, 214, 214);
+  color: rgb(0, 0, 0);
+  background-color: rgb(218, 214, 214);
+}
+
+.dob {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#day {
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+}
+
+#month {
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+  margin-left: 12px;
+}
+
+#year {
+  font-size: 15px;
+  width: 120px;
+  padding: 5px;
+  margin-left: 12px;
+}
+
+.gender {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.maleC {
+  font-size: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  display: inline-block;
+  width: 100px;
+}
+
+#male {
+  float: right;
+}
+.femaleC {
+  font-size: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 100px;
+}
+
+#female {
+  float: right;
+}
+
+.Custom {
+  font-size: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 100px;
+}
+
+#custom {
+  float: right;
+}
+
+.mfcGender {
+  margin-top: 5px;
+}
+
+.paraC {
+  font-size: 11px;
+}
+
+.button {
+  text-align: center;
+}
+
+.signupBtn {
+  width: 200px;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background-color: rgb(45, 138, 45);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  border-style: none;
+}
